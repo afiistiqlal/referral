@@ -23,5 +23,11 @@ echo "hello $username";
 </form>
 <hr>
 <a href="view.php">Liat Data</a>
+<br>
+
+<footer>
+	<button onclick="window.location.href = 'logout.php';">Logout</button>
+</footer>
+
 </body>
 </html>
