@@ -10,6 +10,7 @@ include '../config.php';
 	$result = mysqli_query($connect, $sql);
 
 	if (mysqli_num_rows($result) > 0) {
+		echo "<a href='index.php'>Go back</a>";
 		while ($row = mysqli_fetch_assoc($result)) {
 			echo "<hr><br>Nama: " . $row['nama']. "<br>Phone: " . $row['hp']. "<br>Email: ". $row['email']. "<br>Comment: " . $row['comment'];
 		}

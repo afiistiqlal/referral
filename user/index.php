@@ -22,5 +22,6 @@ echo "hello $username";
 	<input type="submit" name="Submit">
 </form>
 <hr>
+<a href="view.php">Liat Data</a>
 </body>
 </html>
