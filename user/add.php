@@ -16,7 +16,7 @@ $add = "INSERT INTO refer(nama, hp, email, comment) VALUES('$nama', '$hp', '$ema
 	if (mysqli_query($connect, $add)) {
 		// $x = 'keren';
 		echo "Terimakasih, Anda telah membantu kami menyelamatkan dunia </br>";
-		echo "<a href ='index.php'>Go Back</a>";
+		echo "<a href ='index.php'>Go Back</a></br>";
 		// header('location:index.php');
 	}else{
 		echo "Error: " . $add . "<br>"  . mysqli_error($connect);
