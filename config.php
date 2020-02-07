@@ -7,7 +7,7 @@ $dbname = 'refer';
 $connect = mysqli_connect($server, $user, $password);
 mysqli_select_db($connect, $dbname);
 
-if ($connect -> connect_error) {
- 	die("connection failed: " . $conn->connect_error);
+if (!$connect) {
+	die("connection failed: " . mysqli_connect_error());
  } 
 ?>
