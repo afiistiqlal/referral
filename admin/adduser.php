@@ -10,8 +10,10 @@
         Id <input type="text" name='id'></br>
         name <input type="text" name='name'></br>
         Username <input type="text" name='username'></br>
-        Password <input type="password" name='pwd'><br>
-        status <input type="text" name='status'></br>
+        Password <input type="password" name='password'><br>
+        status :<br>
+        Admin <input type="radio" name='status' value=1></br>
+        Users <input type="radio" name='status'  value=0><br>
         <input type="submit" name='Tambah User'>
     </form>
     

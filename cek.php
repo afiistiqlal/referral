@@ -33,4 +33,4 @@ if (mysqli_num_rows($status) > 0) {
 	// balik ke halaman login
 	header('location:login.php');
 }
- ?>
+?>

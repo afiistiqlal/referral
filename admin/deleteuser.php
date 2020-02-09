@@ -1,16 +1,16 @@
 <?php
 include '../config.php';
-$name = $_GET['name'];
-if (!$connnect) {
+$id = $_GET['id'];
+if (!$connect) {
     die("Connection Failed: ". mysqli_connect_error());
 }
-$sql = 'Delete from user where name="$name"';
+$sql = "Delete from user where name='$id'";
 
-if (mysqli_query($conn, $sql)) {
+if (mysqli_query($connect, $sql)) {
     echo "Record deleted successfully";
 } else {
-    echo "Error deleting record: " . mysqli_error($conn);
+    echo "Error deleting record: " . mysqli_error($connect);
 }
 
-mysqli_close($conn);
+mysqli_close($connect);
 ?>

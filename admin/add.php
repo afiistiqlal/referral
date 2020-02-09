@@ -16,8 +16,8 @@ if (!$connect) {
 $add = "INSERT INTO user(id, name, username, password, status) VALUES('$id', '$nama', '$username', '$pwd', '$status')";
 
 if (mysqli_query($connect, $add)) {
-    echo "New record created successfully";
-    header('location:index.php');
+    echo "New record created successfully"."<br>";
+    echo "<a href='index.php'>Home</a>";
 } else {
     echo "Error: " . $add . "<br>" . mysqli_error($connect);
 }

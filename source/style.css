@@ -1,0 +1,23 @@
+*{margin: 0px;
+font-family: arial;
+padding: 0px;}
+
+.bingkai_form{
+    width: 30%;
+    height: 400px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    margin-left: 35%;
+    background-color: #e0f2f1;
+    text-align: center;
+    border-radius: 5%;
+
+}
+
+.bingkai_form h1{
+	padding: 40px;
+	color: blue;
+	background-color: white;
+	margin: 20px;
+	
+}
