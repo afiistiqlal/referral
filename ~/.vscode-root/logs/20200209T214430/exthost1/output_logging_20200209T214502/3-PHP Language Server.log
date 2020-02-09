@@ -1,0 +1,36 @@
+DEBUG     Checking PHPLS_ALLOW_XDEBUG
+DEBUG     The xdebug extension is not loaded
+
+[Info  - 9:45:04 PM] 14 files total
+[Info  - 9:45:04 PM] Indexing project for definitions and static references
+Parsing file:///opt/lampp/htdocs/referral/config.php
+Parsing file:///opt/lampp/htdocs/referral/cek.php
+Parsing file:///opt/lampp/htdocs/referral/login.php
+Parsing file:///opt/lampp/htdocs/referral/admin/deleteuser.php
+Parsing file:///opt/lampp/htdocs/referral/admin/logout.php
+Parsing file:///opt/lampp/htdocs/referral/admin/index.php
+Parsing file:///opt/lampp/htdocs/referral/admin/add.php
+Parsing file:///opt/lampp/htdocs/referral/admin/view.php
+Parsing file:///opt/lampp/htdocs/referral/admin/edituser.php
+Parsing file:///opt/lampp/htdocs/referral/admin/adduser.php
+Parsing file:///opt/lampp/htdocs/referral/user/logout.php
+Parsing file:///opt/lampp/htdocs/referral/user/index.php
+Parsing file:///opt/lampp/htdocs/referral/user/add.php
+Parsing file:///opt/lampp/htdocs/referral/user/view.php
+[Info  - 9:45:04 PM] Indexing project for dynamic references
+Parsing file:///opt/lampp/htdocs/referral/config.php
+Parsing file:///opt/lampp/htdocs/referral/cek.php
+Parsing file:///opt/lampp/htdocs/referral/login.php
+Parsing file:///opt/lampp/htdocs/referral/admin/deleteuser.php
+Parsing file:///opt/lampp/htdocs/referral/admin/logout.php
+Parsing file:///opt/lampp/htdocs/referral/admin/index.php
+Parsing file:///opt/lampp/htdocs/referral/admin/add.php
+Parsing file:///opt/lampp/htdocs/referral/admin/view.php
+Parsing file:///opt/lampp/htdocs/referral/admin/edituser.php
+Parsing file:///opt/lampp/htdocs/referral/admin/adduser.php
+Parsing file:///opt/lampp/htdocs/referral/user/logout.php
+Parsing file:///opt/lampp/htdocs/referral/user/index.php
+Parsing file:///opt/lampp/htdocs/referral/user/add.php
+Parsing file:///opt/lampp/htdocs/referral/user/view.php
+[Info  - 9:45:04 PM] 0 Packages
+[Info  - 9:45:04 PM] All 14 PHP files parsed in 0 seconds. 170 MiB allocated.
